@@ -1,0 +1,15 @@
+SELECT email,password FROM users
+
+DELETE FROM users
+WHERE id=5;
+
+UPDATE users
+SET password='helo'
+WHERE id=10
+
+SELECT * FROM users
+ORDER BY id
+LIMIT 3,5
+
+SELECT * FROM users
+WHERE name LIKE 'T%'
